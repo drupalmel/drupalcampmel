@@ -287,6 +287,71 @@ function drupalcampmel_core_default_page_manager_pages() {
     $display->content['new-48a11da8-e051-42f2-adcb-1492062bcab2'] = $pane;
     $display->panels['content'][0] = 'new-48a11da8-e051-42f2-adcb-1492062bcab2';
     $pane = new stdClass();
+    $pane->pid = 'new-6b0f8ce8-c1a7-40a1-a8cf-f86ce105d6f3';
+    $pane->panel = 'content';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Important information',
+      'title' => 'Important information',
+      'body' => 'It has come to our attention that some attendees have not received the latest newsletter which contains important information. You can view this email in your browser at: <a href="http://us9.campaign-archive1.com/?u=1762195d1f2ea26085e1eff0e&id=943129639b">http://us9.campaign-archive1.com/?u=1762195d1f2ea26085e1eff0e&id=943129639b</a>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => array(
+        'element_title' => array(
+          'type' => 'div',
+          'class_enable' => 1,
+          'class' => 'panel-heading',
+          'attributes' => array(),
+          'link_enabled' => 0,
+          'link' => array(
+            'path' => '',
+            'class_enable' => 0,
+            'class' => '',
+            'attributes' => array(),
+            'attributes_array' => array(),
+          ),
+          'attributes_array' => array(),
+        ),
+        'element_content' => array(
+          'type' => 'div',
+          'class_enable' => 1,
+          'class' => 'panel-body',
+          'attributes' => array(),
+          'link_enabled' => 0,
+          'link' => array(
+            'path' => '',
+            'class_enable' => 0,
+            'class' => '',
+            'attributes' => array(),
+            'attributes_array' => array(),
+          ),
+          'attributes_array' => array(),
+        ),
+        'element_wrapper' => array(
+          'type' => 'div',
+          'class_enable' => 1,
+          'class' => 'panel panel-danger',
+          'attributes' => array(),
+          'attributes_array' => array(),
+        ),
+        'add_default_classes' => 0,
+      ),
+      'style' => 'semantic_panels',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = '6b0f8ce8-c1a7-40a1-a8cf-f86ce105d6f3';
+    $display->content['new-6b0f8ce8-c1a7-40a1-a8cf-f86ce105d6f3'] = $pane;
+    $display->panels['content'][1] = 'new-6b0f8ce8-c1a7-40a1-a8cf-f86ce105d6f3';
+    $pane = new stdClass();
     $pane->pid = 'new-92060bd2-a2f7-4408-86e2-100310675eff';
     $pane->panel = 'content';
     $pane->type = 'panels_mini';
@@ -360,11 +425,11 @@ function drupalcampmel_core_default_page_manager_pages() {
       'css_class' => 'well',
     );
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = '92060bd2-a2f7-4408-86e2-100310675eff';
     $display->content['new-92060bd2-a2f7-4408-86e2-100310675eff'] = $pane;
-    $display->panels['content'][1] = 'new-92060bd2-a2f7-4408-86e2-100310675eff';
+    $display->panels['content'][2] = 'new-92060bd2-a2f7-4408-86e2-100310675eff';
     $pane = new stdClass();
     $pane->pid = 'new-41cc9a12-c8fc-4701-b8c5-f3dfd116be79';
     $pane->panel = 'content';
@@ -456,11 +521,91 @@ return TRUE;
       'css_class' => 'well',
     );
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = '41cc9a12-c8fc-4701-b8c5-f3dfd116be79';
     $display->content['new-41cc9a12-c8fc-4701-b8c5-f3dfd116be79'] = $pane;
-    $display->panels['content'][2] = 'new-41cc9a12-c8fc-4701-b8c5-f3dfd116be79';
+    $display->panels['content'][3] = 'new-41cc9a12-c8fc-4701-b8c5-f3dfd116be79';
+    $pane = new stdClass();
+    $pane->pid = 'new-9cf19758-d7f0-4a32-91b1-afc63af5a83d';
+    $pane->panel = 'content';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'When',
+      'title' => 'When',
+      'body' => '<div class="row">
+  <div class="col-sm-6">
+    <h3>Day 1</h3>
+    <p>
+      Friday the 27th of November<br>
+      9am - 5pm
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <h3>Day 2</h3>
+    <p>
+      Saturday the 28th of November<br>
+      10am - 4:30pm
+    </p>
+  </div>
+</div>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => array(
+        'element_title' => array(
+          'type' => 'h2',
+          'class_enable' => 1,
+          'class' => 'pane-title panel-title',
+          'attributes' => array(),
+          'link_enabled' => 0,
+          'link' => array(
+            'path' => '',
+            'class_enable' => 0,
+            'class' => '',
+            'attributes' => array(),
+            'attributes_array' => array(),
+          ),
+          'attributes_array' => array(),
+        ),
+        'element_content' => array(
+          'type' => 'div',
+          'class_enable' => 1,
+          'class' => 'panel-body',
+          'attributes' => array(),
+          'link_enabled' => 0,
+          'link' => array(
+            'path' => '',
+            'class_enable' => 0,
+            'class' => '',
+            'attributes' => array(),
+            'attributes_array' => array(),
+          ),
+          'attributes_array' => array(),
+        ),
+        'element_wrapper' => array(
+          'type' => 'div',
+          'class_enable' => 1,
+          'class' => 'panel',
+          'attributes' => array(),
+          'attributes_array' => array(),
+        ),
+        'add_default_classes' => 0,
+      ),
+      'style' => 'semantic_panels',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 4;
+    $pane->locks = array();
+    $pane->uuid = '9cf19758-d7f0-4a32-91b1-afc63af5a83d';
+    $display->content['new-9cf19758-d7f0-4a32-91b1-afc63af5a83d'] = $pane;
+    $display->panels['content'][4] = 'new-9cf19758-d7f0-4a32-91b1-afc63af5a83d';
     $pane = new stdClass();
     $pane->pid = 'new-c73d717b-4a2d-45ad-8fd1-3c50cf8c33d0';
     $pane->panel = 'content';
@@ -519,11 +664,11 @@ return TRUE;
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 5;
     $pane->locks = array();
     $pane->uuid = 'c73d717b-4a2d-45ad-8fd1-3c50cf8c33d0';
     $display->content['new-c73d717b-4a2d-45ad-8fd1-3c50cf8c33d0'] = $pane;
-    $display->panels['content'][3] = 'new-c73d717b-4a2d-45ad-8fd1-3c50cf8c33d0';
+    $display->panels['content'][5] = 'new-c73d717b-4a2d-45ad-8fd1-3c50cf8c33d0';
     $pane = new stdClass();
     $pane->pid = 'new-8e09a193-dc97-4449-9b2f-9c133537e336';
     $pane->panel = 'content';
@@ -582,11 +727,11 @@ return TRUE;
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 4;
+    $pane->position = 6;
     $pane->locks = array();
     $pane->uuid = '8e09a193-dc97-4449-9b2f-9c133537e336';
     $display->content['new-8e09a193-dc97-4449-9b2f-9c133537e336'] = $pane;
-    $display->panels['content'][4] = 'new-8e09a193-dc97-4449-9b2f-9c133537e336';
+    $display->panels['content'][6] = 'new-8e09a193-dc97-4449-9b2f-9c133537e336';
     $pane = new stdClass();
     $pane->pid = 'new-e5e187df-fd36-4a70-96a1-e61dbc568527';
     $pane->panel = 'content';
@@ -645,11 +790,11 @@ return TRUE;
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 5;
+    $pane->position = 7;
     $pane->locks = array();
     $pane->uuid = 'e5e187df-fd36-4a70-96a1-e61dbc568527';
     $display->content['new-e5e187df-fd36-4a70-96a1-e61dbc568527'] = $pane;
-    $display->panels['content'][5] = 'new-e5e187df-fd36-4a70-96a1-e61dbc568527';
+    $display->panels['content'][7] = 'new-e5e187df-fd36-4a70-96a1-e61dbc568527';
     $pane = new stdClass();
     $pane->pid = 'new-b5a44a92-6dd8-4cb7-9216-01c6a80cec85';
     $pane->panel = 'content';
@@ -708,11 +853,11 @@ return TRUE;
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 6;
+    $pane->position = 8;
     $pane->locks = array();
     $pane->uuid = 'b5a44a92-6dd8-4cb7-9216-01c6a80cec85';
     $display->content['new-b5a44a92-6dd8-4cb7-9216-01c6a80cec85'] = $pane;
-    $display->panels['content'][6] = 'new-b5a44a92-6dd8-4cb7-9216-01c6a80cec85';
+    $display->panels['content'][8] = 'new-b5a44a92-6dd8-4cb7-9216-01c6a80cec85';
     $pane = new stdClass();
     $pane->pid = 'new-48e3c4b0-d9a0-4e3b-b310-76f955b9f1ef';
     $pane->panel = 'content';
@@ -771,11 +916,11 @@ return TRUE;
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 7;
+    $pane->position = 9;
     $pane->locks = array();
     $pane->uuid = '48e3c4b0-d9a0-4e3b-b310-76f955b9f1ef';
     $display->content['new-48e3c4b0-d9a0-4e3b-b310-76f955b9f1ef'] = $pane;
-    $display->panels['content'][7] = 'new-48e3c4b0-d9a0-4e3b-b310-76f955b9f1ef';
+    $display->panels['content'][9] = 'new-48e3c4b0-d9a0-4e3b-b310-76f955b9f1ef';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
